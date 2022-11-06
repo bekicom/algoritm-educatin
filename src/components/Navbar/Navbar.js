@@ -1,15 +1,13 @@
-import React from "react";
+import React, { memo } from "react";
 import "./navbar.css";
 import logo from "../../asets/nav/Vector.png";
 import menu from "../../asets/nav/menu.svg";
-import user from "../../asets/nav/user.svg"
+import user from "../../asets/nav/user.svg";
 import { useNavigate } from "react-router-dom";
 
-export function Navbar() {
+export const Navbar = () => {
+  const navigate = useNavigate();
 
-  const navigate = useNavigate()
-
-  
   return (
     <nav>
       <div className="logo" onClick={() => navigate("/")}>
@@ -27,7 +25,7 @@ export function Navbar() {
         </button>
         <button>
           <img src={menu} alt="" />
-        Biz bilan aloqa
+          Biz bilan aloqa
         </button>
       </div>
       <div className="profil">
@@ -38,4 +36,6 @@ export function Navbar() {
       </div>
     </nav>
   );
-}
+};
+
+export default memo(Navbar);

@@ -8,9 +8,9 @@ import compyu from "../../asets/section1/Group.png";
 /// kutuxhona////
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
+import { Modal, ModalHeader, ModalBody } from "reactstrap";
 
-export function Main() {
+export const Main = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
@@ -298,4 +298,5 @@ export function Main() {
       </div>
     </div>
   );
-}
+};
+export default React.memo(Main);
