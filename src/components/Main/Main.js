@@ -4,7 +4,7 @@ import { Navbar } from "../Navbar/Navbar";
 import { Register } from "../pages/Register/Register";
 import video from "../../asets/video/Serverga qo‘yish _ Telegram bot _  Bepul va oson usuli.mp4"
 import "./main.css";
-import compyu from "../../asets/section1/comp.svg"
+import compyu from "../../asets/section1/Group.png"
 
 export function Main() {
 
