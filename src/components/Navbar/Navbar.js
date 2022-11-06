@@ -11,10 +11,10 @@ export function Navbar() {
 
   
   return (
-    <nav className="nav">
+    <nav>
       <div className="logo" onClick={() => navigate("/")}>
         <img src={logo} alt="" />
-        <p>ALGORITIM</p>
+        {/* <p>ALGORITIM</p> */}
       </div>
       <div className="lincs">
         <button>
