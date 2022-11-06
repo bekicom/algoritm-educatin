@@ -1,9 +1,11 @@
 nav {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 85px;
   font-family: sans-serif;
+  background: linear-gradient(254.2deg, #00dbde 0%, #121c43 108.49%);
 }
 nav > .logo {
   display: flex;
