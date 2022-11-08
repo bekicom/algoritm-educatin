@@ -54,6 +54,7 @@ export const Main = () => {
           <img src={compyu} alt="" />
         </div>
       </div>
+
       {/* ****************** section2*************** */}
       <div data-aos="fade-up" className="oquvkurslari">
         <div className="oquv">
@@ -97,14 +98,12 @@ export const Main = () => {
           <ModalBody id="modal">
             <div className="webdiv">
               <img src={html} alt="" />
-          
 
               <p>HTML</p>
               <span>FRONT END</span>
             </div>
             <div className="webdiv">
-          
-<img src={css} alt="" />
+              <img src={css} alt="" />
               <p>HTML</p>
               <span>FRONT END</span>
             </div>
@@ -115,19 +114,19 @@ export const Main = () => {
               <span>FRONT END</span>
             </div>
             <div className="webdiv">
-           <img src={js} alt="" />
+              <img src={js} alt="" />
 
               <p>HTML</p>
               <span>FRONT END</span>
             </div>
             <div className="webdiv">
-             <img src={reactjs} alt="" />
+              <img src={reactjs} alt="" />
 
               <p>HTML</p>
               <span>FRONT END</span>
             </div>
             <div className="webdiv">
-          <img src={nodejs} alt="" />
+              <img src={nodejs} alt="" />
 
               <p>HTML</p>
               <span>FRONT END</span>
@@ -143,7 +142,7 @@ export const Main = () => {
             o-rgatiladi. 2-bosqich ham 3 оу davom etadi va bu bosaichda
             o-quvchilarga markaz binosida o'zbek tilida so "zlashish taqiqlab qo
             s iladi. 2-bosqichda o “quvchilar mavzularni rus tilida amaliy
-            tarzda bajarishlari belgilangan Masalan) . kurs uchun to "ov ailish
+            tarzda bajarishlari belgilangan Masalan . kurs uchun to "ov ailish
             rus tilida amalga oshiriladi a bankdan kredit olish rus tilida
             bankka borib gaplashiladi yoki aptekadan rus tilida dori sotib olish
             kabi. . 3-bosqich 1 oу davom etadi va unda o'quvchining sohasiga oid
@@ -163,7 +162,7 @@ export const Main = () => {
             tushunchalar orgatiladi. 2-bosqich ham 3 оу. s Unda mavzular
             murakkab- Iashadi, , o quvchining nutqi shakllantiriladi , dars-
             larning yarmi ozbekcha yarmi inglizcha olib boriladi. 3-bosqich 3
-            оу. Unda o'zbek tiida gapirish taqiq- lanadi) bu bosqichda oquvchi
+            оу. Unda o'zbek tiida gapirish taqiq- lanadi bu bosqichda oquvchi
             ingiz tiiida erkin mulogot aiia oladigan darajaga yetadi. 4-bosqich
             3 оу. Unda ingiiz grammatikasi toa yakunlanadi READING va LISTENING
             qobiliyatlari ADVANCED darajasiga chiqadi. 5-bosqich 5 оу boadi.
@@ -187,6 +186,26 @@ export const Main = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </ModalBody>
         </Modal>
+      </div>
+
+      {/* ***********************section3****************** */}
+
+      <div data-aos="fade-up" className="onlinekurs">
+        <p>Online darsliklar</p>
+        <div className="div_kurslar">
+          <div  data-aos="fade-up" className="online_kurs">
+            <button>kursni korish</button>
+          </div>
+          <div data-aos="fade-up" className="online_kurs">
+            <button>kursni korish</button>
+          </div>
+          <div data-aos="fade-up" className="online_kurs">
+            <button>kursni korish</button>
+          </div>
+          <div data-aos="fade-up" className="online_kurs">
+            <button>kursni korish</button>
+          </div>
+        </div>
       </div>
     </div>
   );
