@@ -6,12 +6,12 @@ import video from "../../asets/video/Serverga qo‘yish _ Telegram bot _  Bepul 
 import "./main.css";
 import compyu from "../../asets/section1/Group.png";
 // icon web
-import html from "../../asets/section2/html5.svg"
-import css from "../../asets/section2/css.svg"
-import boot from "../../asets/section2/bootstrap4.svg"
-import js from "../../asets/section2/js.svg"
-import reactjs from "../../asets/section2/reactjs.svg"
-import nodejs from "../../asets/section2/nodejs.svg"
+import html from "../../asets/section2/html5.svg";
+import css from "../../asets/section2/css.svg";
+import boot from "../../asets/section2/bootstrap4.svg";
+import js from "../../asets/section2/js.svg";
+import reactjs from "../../asets/section2/reactjs.svg";
+import nodejs from "../../asets/section2/nodejs.svg";
 /// kutuxhona////
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -100,36 +100,30 @@ export const Main = () => {
               <img src={html} alt="" />
 
               <p>HTML</p>
-              <span>FRONT END</span>
             </div>
             <div className="webdiv">
               <img src={css} alt="" />
-              <p>HTML</p>
-              <span>FRONT END</span>
+              <p>CSS</p>
             </div>
             <div className="webdiv">
               <img src={boot} alt="" />
 
-              <p>HTML</p>
-              <span>FRONT END</span>
+              <p>BOOSTRAP</p>
             </div>
             <div className="webdiv">
               <img src={js} alt="" />
 
-              <p>HTML</p>
-              <span>FRONT END</span>
+              <p>JAVASCRIPT</p>
             </div>
             <div className="webdiv">
               <img src={reactjs} alt="" />
 
-              <p>HTML</p>
-              <span>FRONT END</span>
+              <p>REACT JS</p>
             </div>
             <div className="webdiv">
               <img src={nodejs} alt="" />
 
-              <p>HTML</p>
-              <span>FRONT END</span>
+              <p>NODE JS</p>
             </div>
           </ModalBody>
         </Modal>
@@ -193,7 +187,7 @@ export const Main = () => {
       <div data-aos="fade-up" className="onlinekurs">
         <p>Online darsliklar</p>
         <div className="div_kurslar">
-          <div  data-aos="fade-up" className="online_kurs">
+          <div data-aos="fade-up" className="online_kurs">
             <button>kursni korish</button>
           </div>
           <div data-aos="fade-up" className="online_kurs">
