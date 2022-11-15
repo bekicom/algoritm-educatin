@@ -1,8 +1,21 @@
+@font-face {
+  font-family: 'new';
+  src: url(../../asets/fons/Gilroy-Light.otf);
+ 
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: new;
+}
+
+.register_modol{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 button {
   cursor: pointer;
@@ -28,7 +41,7 @@ body {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
-  padding: 34px 120px;
+  padding: 54px 120px;
   background: linear-gradient(254.2deg, #00dbde 0%, #121c43 108.49%);
 }
 video {
