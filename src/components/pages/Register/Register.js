@@ -13,7 +13,7 @@ export function Register() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="register" style={open ? { display: " flex" } : {}}>
+    <div className="register" >
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -36,6 +36,7 @@ export function Register() {
             });
         }}
       >
+        <span onClick={() => setOpen(true)}>x</span>
         <div className="logo_r">
           <img src={logo} alt="" />
           {/* <p>R’yxatdan otish</p> */}
