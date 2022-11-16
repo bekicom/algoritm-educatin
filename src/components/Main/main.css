@@ -1,8 +1,8 @@
-@font-face {
-  font-family: 'new';
-  src: url(../../asets/fons/Gilroy-Light.otf);
- 
-}
+/* @font-face {
+  font-family: 'FontName';
+  src: url(../../asets/font/);
+  
+} */
 
 * {
   margin: 0;
@@ -14,6 +14,7 @@
 .register_modol{
   display: none;
   position: fixed;
+ 
   top: 0;
   left: 0;
 }

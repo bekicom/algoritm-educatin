@@ -77,6 +77,9 @@ export const Main = () => {
               <button
                 onClick={() => {
                   setOpen(true);
+                     setTimeout(() => {
+                       setModal2(false);
+                     }, 1);
                 }}
               >
                 royxatdan otish
@@ -88,6 +91,9 @@ export const Main = () => {
               <button
                 onClick={() => {
                   setOpen(true);
+                     setTimeout(() => {
+                       setModal3(false);
+                     }, 1);
                 }}
               >
                 royxatdan otish
@@ -98,6 +104,9 @@ export const Main = () => {
               <button
                 onClick={() => {
                   setOpen(true);
+                     setTimeout(() => {
+                       setModal4(false);
+                     }, 1);
                 }}
               >
                 royxatdan otish
