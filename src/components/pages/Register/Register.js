@@ -10,7 +10,7 @@ export function Register() {
   const [name, setName] = useState({});
   const [phone, setPhone] = useState({});
   const [course, setCourse] = useState({});
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
   return (
     <div className="register" >
@@ -71,7 +71,7 @@ export function Register() {
           <option value="Ingliz-tili">Ingliz-tili</option>
           <option value="DTM">DTM</option>
         </select>
-        <button type="submit" onClick={() => setOpen(false)}>
+        <button type="submit" >
           Login
         </button>
       </form>
