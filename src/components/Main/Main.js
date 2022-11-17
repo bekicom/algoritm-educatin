@@ -54,7 +54,7 @@ export const Main = () => {
         </div>
 
         {/* ****************** section2*************** */}
-        {/* <div data-aos="fade-up" className="oquvkurslari">
+        <div data-aos="fade-up" className="oquvkurslari">
           <div className="oquv">
             <p>O`quv kurslar</p>
           </div>
@@ -202,11 +202,11 @@ export const Main = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </ModalBody>
           </Modal>
-        </div> */}
+        </div>
 
         {/* ***********************section3****************** */}
 
-        {/* <div data-aos="fade-up" className="onlinekurs">
+        <div data-aos="fade-up" className="onlinekurs">
           <p>Online darsliklar</p>
           <div className="div_kurslar">
             <div data-aos="fade-up" className="online_kurs">
@@ -222,7 +222,7 @@ export const Main = () => {
               <button>kursni korish</button>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>  
       <div className="register_modol" style={open ? { display: "flex" } : {}}>
         <Register setOpen={setOpen} />
