@@ -7,12 +7,12 @@ import { Register } from "../pages/Register/Register";
 import { useState } from "react";
 
 export const Navbar = () => {
-  const [open,setOpen]=useState(false)
+  const [open, setOpen] = useState(false);
 
   return (
     <>
       <nav>
-        <div className="logo" >
+        <div className="logo">
           <img src={logo} alt="" />
           {/* <p>ALGORITIM</p> */}
         </div>
@@ -31,14 +31,14 @@ export const Navbar = () => {
           </button>
         </div>
         <div className="profil">
-          <button onClick={()=> setOpen(true)}>
+          <button onClick={() => setOpen(true)}>
             Profil
             <img src={user} alt="" />
           </button>
         </div>
       </nav>
       <div className="register_modol" style={open ? { display: "flex" } : {}}>
-       <Register/>
+        <Register setOpen={setOpen} />
       </div>
     </>
   );

@@ -54,7 +54,7 @@ export const Main = () => {
         </div>
 
         {/* ****************** section2*************** */}
-        <div data-aos="fade-up" className="oquvkurslari">
+        {/* <div data-aos="fade-up" className="oquvkurslari">
           <div className="oquv">
             <p>O`quv kurslar</p>
           </div>
@@ -77,9 +77,9 @@ export const Main = () => {
               <button
                 onClick={() => {
                   setOpen(true);
-                     setTimeout(() => {
-                       setModal2(false);
-                     }, 1);
+                  setTimeout(() => {
+                    setModal2(false);
+                  }, 1);
                 }}
               >
                 royxatdan otish
@@ -91,9 +91,9 @@ export const Main = () => {
               <button
                 onClick={() => {
                   setOpen(true);
-                     setTimeout(() => {
-                       setModal3(false);
-                     }, 1);
+                  setTimeout(() => {
+                    setModal3(false);
+                  }, 1);
                 }}
               >
                 royxatdan otish
@@ -104,9 +104,9 @@ export const Main = () => {
               <button
                 onClick={() => {
                   setOpen(true);
-                     setTimeout(() => {
-                       setModal4(false);
-                     }, 1);
+                  setTimeout(() => {
+                    setModal4(false);
+                  }, 1);
                 }}
               >
                 royxatdan otish
@@ -202,11 +202,11 @@ export const Main = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </ModalBody>
           </Modal>
-        </div>
+        </div> */}
 
         {/* ***********************section3****************** */}
 
-        <div data-aos="fade-up" className="onlinekurs">
+        {/* <div data-aos="fade-up" className="onlinekurs">
           <p>Online darsliklar</p>
           <div className="div_kurslar">
             <div data-aos="fade-up" className="online_kurs">
@@ -222,10 +222,10 @@ export const Main = () => {
               <button>kursni korish</button>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      </div>  
       <div className="register_modol" style={open ? { display: "flex" } : {}}>
-        <Register />
+        <Register setOpen={setOpen} />
       </div>
     </>
   );

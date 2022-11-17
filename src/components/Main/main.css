@@ -8,13 +8,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: new;
+  font-family: sans-serif;
 }
 
-.register_modol{
+.register_modol {
   display: none;
   position: fixed;
- 
+
   top: 0;
   left: 0;
 }
@@ -32,7 +32,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 
 /* *********section1******* */
 
@@ -114,7 +113,6 @@ b {
   padding: 50px 20px 10px 20px;
   text-align: center;
   cursor: pointer;
-
 }
 .kusrlar > div > p {
   font-weight: 400;
@@ -167,9 +165,8 @@ b {
   border-radius: 8px;
   padding: 2px;
   margin: 3%;
-
 }
-.webdiv> img{
+.webdiv > img {
   width: 100%;
 }
 /* *************section3*********** */
@@ -211,14 +208,146 @@ b {
   flex-direction: column;
   padding: 5px;
   background-image: url(../../asets/section3//Screenshot_2.jpg);
-  background-size:cover;
+  background-size: cover;
 }
-.online_kurs  >button{
+.online_kurs > button {
   width: 256px;
-height: 42px;
+  height: 42px;
 
-background: #28BD2E;
-border-radius: 8px;
-color: white;
-border: none;
+  background: #28bd2e;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+/* media responsiv */
+
+@media (max-width: 1024px) {
+  .sec_l {
+    width: 50%;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .sec_l > p {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .sec_r > img {
+    width: 80%;
+  }
+  .section1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 54px 100px;
+    background: linear-gradient(254.2deg, #00dbde 0%, #121c43 108.49%);
+  }
+  /* ***********section 2 *************/
+
+  .oquvkurslari {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 80px 10px;
+  }
+  .kusrlar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 0;
+  }
+  .kusrlar > div {
+    width: 240px;
+    height: 320px;
+
+    /* border: 1px solid #000000; */
+    box-shadow: 4px 8px 10px gray;
+    border-radius: 10px;
+    background-image: url(../../asets//section2/triangle-abstract-gradient-soft-gradient-wallpaper-preview.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 20px 10px 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  /* **********section3********* */
+  .onlinekurs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: gray; */
+    padding: 20px 8px;
+  }
+  .online_kurs {
+    width: 240px;
+    height: 320px;
+
+    background: #ffffff;
+    /* border: 0.1px solid #000000; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 5px;
+    background-image: url(../../asets/section3//Screenshot_2.jpg);
+    background-size: cover;
+  }
+  .online_kurs > button {
+    width: 206px;
+    height: 32px;
+
+    background: #28bd2e;
+    border-radius: 8px;
+    color: white;
+    border: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 54px 40px;
+}
+  .sec_l {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 0;
+  }
+  .sec_l > p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+   .sec_r > img {
+    width: 90%;
+  }
 }

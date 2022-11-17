@@ -5,15 +5,14 @@ import { useState } from "react";
 import { PatternFormat } from "react-number-format";
 import axios from "axios";
 
-export function Register() {
+export function Register({ setOpen }) {
   const api = "https://algoritm21.pandashop.uz";
   const [name, setName] = useState({});
   const [phone, setPhone] = useState({});
   const [course, setCourse] = useState({});
-  // const [open, setOpen] = useState(false);
 
   return (
-    <div className="register" >
+    <div className="register  ">
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -36,7 +35,10 @@ export function Register() {
             });
         }}
       >
-        {/* <span onClick={() => setOpen(true)}>x</span> */}
+        <button type="button" onClick={() => setOpen(false)}>
+          x
+        </button>
+
         <div className="logo_r">
           <img src={logo} alt="" />
           {/* <p>R’yxatdan otish</p> */}
@@ -71,7 +73,7 @@ export function Register() {
           <option value="Ingliz-tili">Ingliz-tili</option>
           <option value="DTM">DTM</option>
         </select>
-        <button type="submit" >
+        <button type="submit" onClick={() => setOpen(false)}>
           Login
         </button>
       </form>
