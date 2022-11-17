@@ -35,7 +35,7 @@ export function Register({ setOpen }) {
             });
         }}
       >
-        <button type="button" onClick={() => setOpen(false)}>
+        <button id="btnopen" type="button" onClick={() => setOpen(false)}>
           x
         </button>
 
